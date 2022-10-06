@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="question.js" defer></script>
+
+    <title>questions-json</title>
+  </head>
+  <body>
+    <div class="mx-auto max-w-lg p-3">
+      <div>
+        <div class="mx-auto bg-base-100">
+          <img src="question.png" alt="question" />
+          <div class="card-body">
+            <div class="rounded-xl bg-green-600 p-5 text-white text-center">
+              <span id="question" class="text-2xl font-bold"></span>
+            </div>
+            <div class="px-5">
+              <div
+                id="bc1"
+                class="cursor-pointer rounded-xl bg-blue-600 hover:bordered hover:border-2 p-5 text-white text-left my-5"
+              >
+                <p id="c1" class="label-text text-xl font-bold text-white">
+                  C1
+                </p>
+              </div>
+              <div
+                id="bc2"
+                class="cursor-pointer rounded-xl bg-blue-600 hover:bordered hover:border-2 p-5 text-white text-left my-5"
+              >
+                <p id="c2" class="label-text text-xl font-bold text-white">
+                  C2
+                </p>
+              </div>
+            </div>
+            <progress
+              id="timer"
+              class="progress progress-success w-full"
+              value="100"
+              max="100"
+            ></progress>
+            <div
+              id="answer"
+              class="hidden rounded-xl p-5 text-white text-center font-bold my-5"
+            ></div>
+
+            <div id="endModal" class="modal">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg">คุณเล่นเกมส์ครบทุกข้อแล้ว</h3>
+                <div id="score" class="py-4"></div>
+                <div id="closeEndModal" class="modal-action">
+                  <label for="my-modal" class="btn">OK ! เริ่มต้นใหม่</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener('load', (event) => {
+        const question = new Questions()
+        console.log('QC', question)
+        question.init()
+      })
+    </script>
+  </body>
+</html>

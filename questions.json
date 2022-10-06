@@ -1,0 +1,90 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "question": "1+1 = 2",
+                "c1": null,
+                "c2": null,
+                "answer": 1,
+                "type": null,
+                "createdAt": "2022-09-27T02:06:11.662Z",
+                "updatedAt": "2022-09-27T02:06:12.393Z",
+                "publishedAt": "2022-09-27T02:06:12.391Z"
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "question": "ประเทศไทยอยู่ในทวีปยุโรป",
+                "c1": null,
+                "c2": null,
+                "answer": 2,
+                "type": null,
+                "createdAt": "2022-09-27T02:06:41.109Z",
+                "updatedAt": "2022-09-27T02:06:41.920Z",
+                "publishedAt": "2022-09-27T02:06:41.918Z"
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "question": "วันลอยกระทงตรงกับวันใด",
+                "c1": "แรม 15 ค่ำเดือน 12",
+                "c2": "ขึ้น 15 ค่ำเดือน 12",
+                "answer": 2,
+                "type": null,
+                "createdAt": "2022-09-27T02:07:41.929Z",
+                "updatedAt": "2022-09-27T02:07:45.143Z",
+                "publishedAt": "2022-09-27T02:07:45.141Z"
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "question": "ดอกไม้ใด นิยมใช้บูชาพระ",
+                "c1": "ดอกบัว",
+                "c2": "ดอกกุหลาบ",
+                "answer": 1,
+                "type": null,
+                "createdAt": "2022-09-27T02:08:04.701Z",
+                "updatedAt": "2022-09-27T02:08:05.284Z",
+                "publishedAt": "2022-09-27T02:08:05.282Z"
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "question": "2 + 2 = 5",
+                "c1": null,
+                "c2": null,
+                "answer": 2,
+                "type": null,
+                "createdAt": "2022-09-27T02:08:21.517Z",
+                "updatedAt": "2022-09-27T02:08:27.064Z",
+                "publishedAt": "2022-09-27T02:08:27.062Z"
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "question": "ศีล 5 มีกี่ข้อ",
+                "c1": "4",
+                "c2": "5",
+                "answer": 2,
+                "type": null,
+                "createdAt": "2022-09-27T02:08:57.708Z",
+                "updatedAt": "2022-09-27T02:08:59.280Z",
+                "publishedAt": "2022-09-27T02:08:59.279Z"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 6
+        }
+    }
+}
